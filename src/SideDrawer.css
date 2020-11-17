@@ -1,0 +1,36 @@
+.side-drawer {
+    margin-top: 80px;
+    margin-left: 80px;
+    height: 85%;
+    background: white;
+    box-shadow: 2px 8px 5px rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 800px;
+
+}
+
+.side-drawer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-drawer li {
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.side-drawer Card {
+    margin:auto ;
+}
+
+.kartu {
+    margin : 10px;
+}
+
+CardImg {
+    border: 2px solid black;
+
+}

@@ -1,0 +1,39 @@
+.judul{
+    width: 1400px;
+    height: 40px;
+}
+.text-danger {
+    margin-left: 20px;
+}
+
+.main {
+    margin-left: 60px;
+    height: 600px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.template {
+    background-color:gainsboro;
+    height: 600px;
+  
+}
+
+.toggle-button{
+    background-color:gainsboro;
+    height: 200pxpx;
+    border :none;
+}
+
+.toggle:hover {
+   
+    border: none;
+}
+
+.toggle {
+    height: 105px;
+    line-height: 100%;
+}
+
