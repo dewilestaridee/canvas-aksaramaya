@@ -6,9 +6,10 @@ const Main = (props) => {
     return (
 
       <div>
-        <div className="template">
-        <DrawerToggleButton click={props.drawerClickHandler}/>
-         </div>
+        <div className="template"> 
+           <div className="page">page</div>
+        </div>
+         <DrawerToggleButton click={props.drawerClickHandler}/>
       </div>
     
         );
