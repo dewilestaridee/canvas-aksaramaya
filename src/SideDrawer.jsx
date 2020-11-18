@@ -1,8 +1,18 @@
 import React from 'react';
-import img from './img.jpg';
-import img1 from './img1.jpg';
-import img2 from './img2.jpg';
-import { Card, Button, CardImg, CardTitle, CardGroup, Input
+import img from './1.png';
+import img1 from './4.png';
+import img2 from './3.png';
+import img3 from './6.png';
+import img4 from './5.png';
+import img5 from './7.png';
+import img6 from './8.png';
+import img7 from './9.png';
+import img8 from './10.png';
+import img9 from './11.png';
+import img10 from './12.png';
+import img11 from './img1.jpg';
+
+import { Card, CardImg, CardGroup, Input
         } from 'reactstrap';    
 import './SideDrawer.css';
 
@@ -13,26 +23,65 @@ const sideDrawer = () => {
             <h2>Template</h2>
             <Input name="Cari" id="Template" placeholder="Cari Template" />
         </div>
-        <CardGroup>
+        <div>
+          <CardGroup>
 
-      <Card className="kartu">
-        <CardTitle tag="p">Template 1</CardTitle>
-        <CardImg top width="100%" height="400px" line-height="100%" src={img} alt="Template 1" />
-        <Button caret color = "danger">Pilih</Button>
-      </Card>
+          <Card className="kartu">
+            <CardImg top src={img} alt="Template 1" />
+          </Card>
 
-      <Card className="kartu">
-        <CardTitle tag="p">Template 2</CardTitle>
-        <CardImg top width="100%" height="400px" line-height="100%" src={img1} alt="Card image cap" />
-        <Button caret color = "danger">Pilih</Button>
-      </Card>
-      
-      <Card className="kartu">
-        <CardTitle tag="p">Template 2</CardTitle>
-        <CardImg top width="100%" height="400px" line-height="100%" src={img2} alt="Card image cap" />
-        <Button caret color = "danger">Pilih</Button>
-      </Card>
-    </CardGroup>
+          <Card className="kartu">
+            <CardImg top src={img1} alt="Card image cap" />
+          </Card>
+          
+          <Card className="kartu">
+            <CardImg top src={img2} alt="Card image cap" />
+          </Card>
+
+          <Card className="kartu">
+            <CardImg top src={img3} alt="Card image cap" />
+          </Card>
+
+          <Card className="kartu">
+            <CardImg top src={img4} alt="Card image cap" />
+          </Card>
+          <Card className="kartu">
+            <CardImg top src={img11} alt="Card image cap" />
+          </Card>
+          
+        </CardGroup>
+    </div>
+    <br></br>
+    <div class = "container">
+            <h2>Objek dan Background</h2>
+        </div>
+    <div>
+          <CardGroup>
+
+          <Card className="kartu">
+            <CardImg top src={img5} alt="Template 1" />
+          </Card>
+
+          <Card className="kartu">
+            <CardImg top src={img6} alt="Card image cap" />
+          </Card>
+          
+          <Card className="kartu">
+            <CardImg top src={img7} alt="Card image cap" />
+          </Card>
+
+          <Card className="kartu">
+            <CardImg top src={img8} alt="Card image cap" />
+          </Card>
+
+          <Card className="kartu">
+            <CardImg top src={img9} alt="Card image cap" />
+          </Card>
+          <Card className="kartu">
+            <CardImg top src={img10} alt="Card image cap" />
+          </Card>
+          </CardGroup>
+    </div>
 </nav>
     );
 }
