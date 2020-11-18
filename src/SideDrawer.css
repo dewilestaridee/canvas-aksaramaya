@@ -1,7 +1,7 @@
 .side-drawer {
-    margin-top: 80px;
+    margin-top: 95px;
     margin-left: 80px;
-    height: 85%;
+    height: 90%;
     background: white;
     box-shadow: 2px 8px 5px rgba(0,0,0, 0.5);
     position: fixed;
@@ -28,9 +28,14 @@
 
 .kartu {
     margin : 10px;
+    height: 200px;
 }
 
-CardImg {
-    border: 2px solid black;
+.kartu:hover {
+    cursor: pointer;
+}
 
+.container {
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
