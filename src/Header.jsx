@@ -9,7 +9,7 @@ const Header = () => {
     return (
          <div className="judul">
               <Navbar color="light" light expand="md">
-               <NavbarBrand className="text-danger">Editor Judul</NavbarBrand>
+               <NavbarBrand className="text-danger">CANVAS</NavbarBrand>
       </Navbar>
       </div>
     );
